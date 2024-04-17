@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int i,num,odd=0,even=0;
+    printf("Enter value of num\n");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+        for(j=1;j<=N;j++)
+        {
+            printf("*");
+        }
+        printf("/n");
+    }
+    return 0;
+}
